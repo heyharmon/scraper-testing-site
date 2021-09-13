@@ -1,7 +1,9 @@
 <template>
-    <div class="bg-white max-w-6xl mx-auto">
+    <div>
       <Navigation />
       <Hero heading="Contact" />
+
+      <Form />
     </div>
 </template>
 

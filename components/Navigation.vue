@@ -1,5 +1,5 @@
 <template>
-    <div class="mx-auto">
+    <header class="mx-auto">
       <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
         <!-- Logo -->
         <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -27,5 +27,5 @@
           </nuxt-link>
         </div>
       </div>
-    </div>
+  </header>
 </template>
