@@ -49,31 +49,25 @@
       </div>
 </template>
 
-<script>
-export default {
-    data() {
-        return {
-            people: [
-                {
-                    'avatar': 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-                    'name': 'Jane Cooper',
-                    'email': 'jane.cooper@example.com',
-                    'title': 'CEO'
-                },
-                {
-                    'avatar': 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-                    'name': 'Cody Fisher',
-                    'email': 'cody.fisher@example.com',
-                    'title': 'Designer'
-                },
-                {
-                    'avatar': 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
-                    'name': 'Esther Howard',
-                    'email': 'esther.howard@example.com',
-                    'title': 'Developer'
-                }
-            ]
-        }
+<script setup>
+let people = [
+    {
+        'avatar': 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+        'name': 'Jane Cooper',
+        'email': 'jane.cooper@example.com',
+        'title': 'CEO'
+    },
+    {
+        'avatar': 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+        'name': 'Cody Fisher',
+        'email': 'cody.fisher@example.com',
+        'title': 'Designer'
+    },
+    {
+        'avatar': 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60',
+        'name': 'Esther Howard',
+        'email': 'esther.howard@example.com',
+        'title': 'Developer'
     }
-}
+]
 </script>

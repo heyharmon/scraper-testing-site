@@ -1,7 +1,7 @@
 <template>
     <div>
       <Navigation />
-      <Hero heading="About" />
+      <Hero title="About" />
 
       <div class="py-10">
           <h2 class="text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Team</h2>
@@ -18,7 +18,3 @@
       </div>
     </div>
 </template>
-
-<script>
-export default {}
-</script>

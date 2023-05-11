@@ -1,11 +1,7 @@
 <template>
     <div>
       <Navigation />
-      <Hero heading="Blog" />
+      <Hero title="Blog" />
       <Posts />
     </div>
 </template>
-
-<script>
-export default {}
-</script>
