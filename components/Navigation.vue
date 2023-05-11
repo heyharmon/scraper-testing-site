@@ -11,10 +11,10 @@
 
         <nav class="hidden md:flex space-x-10">
           <nuxt-link to="/about" class="text-base font-medium text-gray-500 hover:text-gray-900">
-              About
+            About
           </nuxt-link>
-          <nuxt-link to="/pricing" class="text-base font-medium text-gray-500 hover:text-gray-900">
-            Pricing
+          <nuxt-link to="/rates" class="text-base font-medium text-gray-500 hover:text-gray-900">
+            Rates
           </nuxt-link>
           <nuxt-link to="/blog" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Blog
