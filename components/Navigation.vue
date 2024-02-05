@@ -16,6 +16,9 @@
           <nuxt-link to="/rates" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Rates
           </nuxt-link>
+          <nuxt-link to="/info" class="text-base font-medium text-gray-500 hover:text-gray-900">
+            Info
+          </nuxt-link>
           <nuxt-link to="/blog" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Blog
           </nuxt-link>
